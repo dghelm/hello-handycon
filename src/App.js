@@ -1,4 +1,4 @@
-import logo from './ethdenlogo.svg';
+import logo from './Handycon-PP.png';
 import './App.css';
 
 function App() {
