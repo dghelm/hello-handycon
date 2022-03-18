@@ -18,7 +18,7 @@ jobs:
       - run: yarn build
 
       - name: 'Deploy to Skynet'
-        uses: SkynetLabs/deploy-to-skynet-action@skynet-api-key
+        uses: SkynetLabs/deploy-to-skynet-action@v2
         with:
           upload-dir: build
           # portal-url: https://skynetpro.net
